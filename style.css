@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 80px;
+    background-color: #1A1722;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+h2 {
+    margin: auto;
+}
+
+h3 {
+    margin: auto;
+}
+
+.top-container {
+    background-color: #C6A6DD;
+}
+
+.mid-container {
+    background-color: #DDABA6;
+}
+
+.bottom-container {
+    background-color: #DDA6BD;
+}
+
+@media (prefers-reduced-motion) {
+    .animation {
+      animation-name: dissolve;
+    }
+  }
